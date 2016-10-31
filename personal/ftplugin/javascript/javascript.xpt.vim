@@ -6,3 +6,8 @@ XPT iife " IIFE
 
     `//code here^
 }());
+
+XPT lambda " Lambda
+function (`arg^`` parameter... `{{^, `arg^`` parameter... `^`}}^) {
+    `//code here^
+}
