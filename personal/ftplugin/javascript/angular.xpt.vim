@@ -61,5 +61,18 @@ XPT angcom " Component
     });
 }());
 
+XPT angrun " Run
+(function () {
+    'use strict';
+
+    var inject = [];
+    function run() {
+        `//code here^
+    }
+    run.$inject = inject;
+
+    angular.module('`module_name^').run(run);
+}())
+
 XPT ctmet " Controller method
 ctrl.`method_name^ = `method_name^;
